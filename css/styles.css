@@ -1,0 +1,56 @@
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cabecera {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: orange;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.contenido {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 10px;
+    background-color: #2094d6;
+    padding: 20px;
+}
+
+.caja-izq, .caja-central {
+    background-color: green;
+    text-align: justify;
+    color:white;
+    font-size: 30px;
+}
+
+.caja-der {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caja-up, .caja-down {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.pie {
+    background-color: brown;
+    text-align: center;
+    color:aliceblue;
+    font-size: 20px;
+    height: 50px;
+}
